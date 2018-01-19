@@ -3,10 +3,10 @@ import {
   BrowserRouter as Router,
   Route,
   NavLink as Link,
-  RouteComponentProps
+  RouteComponentProps,
+  Switch
 } from 'react-router-dom';
 import './App.css';
-import { Switch } from 'react-router';
 
 const Links = () => (
   <div>
